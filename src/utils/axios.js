@@ -6,7 +6,7 @@ import {
 // create an axios instance
 const service = axios.create({
     // baseURL: 'http://192.168.1.246:8090', // api 的 base_url
-    baseURL: 'http://miyo-tech.iask.in:10012', // api 的 base_url
+    baseURL: 'https://miyo-tech.iask.in:10012', // api 的 base_url
     // baseURL: 'http://192.168.200.124:9090/InternalControlAuditPlatform', // api 的 base_url
     timeout: 5000 // request timeout
 })
